@@ -234,9 +234,7 @@ SQLite 数据库 `backend/storage/app.db`：
 
 ---
 
-## 📄 许可证
 
-本项目以 [MIT License](LICENSE) 开源。
 
 ---
 
