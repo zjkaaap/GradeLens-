@@ -1,0 +1,53 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": { "navigationBarTitleText": "GradeLens 智阅" }
+		},
+		{
+			"path": "pages/paper/upload",
+			"style": { "navigationBarTitleText": "上传试卷" }
+		},
+		{
+			"path": "pages/paper/list",
+			"style": { "navigationBarTitleText": "试卷库" }
+		},
+		{
+			"path": "pages/paper/detail",
+			"style": { "navigationBarTitleText": "试卷详情" }
+		},
+		{
+			"path": "pages/grade/upload",
+			"style": { "navigationBarTitleText": "学生作答评分" }
+		},
+		{
+			"path": "pages/grade/result",
+			"style": { "navigationBarTitleText": "评分结果" }
+		},
+		{
+			"path": "pages/grade/paper",
+			"style": { "navigationBarTitleText": "整卷评分" }
+		},
+		{
+			"path": "pages/grade/paper_result",
+			"style": { "navigationBarTitleText": "整卷评分结果" }
+		}
+	],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#3B82F6",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "GradeLens 智阅",
+		"backgroundColor": "#F5F7FA"
+	},
+	"tabBar": {
+		"color": "#888888",
+		"selectedColor": "#3B82F6",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{ "pagePath": "pages/index/index",   "text": "首页" },
+			{ "pagePath": "pages/paper/list",    "text": "试卷库" },
+			{ "pagePath": "pages/grade/upload",  "text": "评分" }
+		]
+	}
+}

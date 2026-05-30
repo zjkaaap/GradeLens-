@@ -1,0 +1,51 @@
+# ===== 敏感信息（务必忽略，切勿提交）=====
+.env
+backend/.env
+access_key.txt
+*.key
+*secret*
+*credential*
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 运行时数据 / 上传文件 =====
+backend/storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== uni-app / 前端 =====
+node_modules/
+unpackage/
+frontend/node_modules/
+frontend/unpackage/
+.hbuilderx/
+dist/
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ===== 临时 Office 锁文件 =====
+~$*.docx
+~$*.doc
+~$*.xlsx

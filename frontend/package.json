@@ -1,0 +1,9 @@
+{
+  "name": "ai-paper-grading-frontend",
+  "version": "1.0.0",
+  "description": "uni-app frontend for AI paper grading",
+  "main": "main.js",
+  "dependencies": {
+    "katex": "^0.16.11"
+  }
+}
