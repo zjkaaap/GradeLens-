@@ -217,7 +217,7 @@ SQLite 数据库 `backend/storage/app.db`：
 
 ---
 
-<<<<<<< HEAD
+
 ## 🧭 已知问题与路线图
 
 - ⚠️ **整卷评分的题目归属幻觉**：当 `/api/grade_paper` 一次性整卷评分、而上传图片实为另一份试卷的作答（如题干「四棱锥 P-ABCD」对作答「正方体 ABCD-A₁B₁C₁D₁」）时，模型有时会忽略对象不一致而按推理严谨度给高分。已在 Prompt 加入对象一致性硬约束并要求输出 `belongs_to_this_question` 做兜底清零，但模型仍可能自报 `true` 绕过。
@@ -226,7 +226,7 @@ SQLite 数据库 `backend/storage/app.db`：
 
 ---
 =======
->>>>>>> 4952d42cd3f8a83d234e9a943a341edacc1a755c
+
 
 ## 🤝 贡献
 
